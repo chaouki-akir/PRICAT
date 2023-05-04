@@ -1355,10 +1355,7 @@ FUNCTION zsd_masteridoc_pricat03.
 
             ENDCASE.
           ENDLOOP.
-*         IZ-5576
-          CLEAR sy-subrc.
-*         IZ-5576
-         
+
           REFRESH : lt_pit_conditions,
                     lt_condvente.
 
