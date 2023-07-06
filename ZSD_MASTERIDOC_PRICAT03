@@ -56,7 +56,6 @@ FUNCTION zsd_masteridoc_pricat03.
 *&                                (nv. segment ZFIAFOUR)
 *&---------------------------------------------------------------------*
 
-
   TYPES :
     BEGIN OF ls_unitofmeasureext,
       uom0(1) TYPE c,
